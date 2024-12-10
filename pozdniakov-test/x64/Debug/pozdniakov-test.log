@@ -1,0 +1,5 @@
+﻿  test.cpp
+P:\lab4 kyrs\pozdniakov-test\stringProcessor.h(18,12): warning C4267: return: преобразование из "size_t" в "const int32_t"; возможна потеря данных
+  (компиляция исходного файла "/test.cpp")
+  
+  pozdniakov-test.vcxproj -> P:\lab4 kyrs\pozdniakov-test\x64\Debug\pozdniakov-test.exe

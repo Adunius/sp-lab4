@@ -1,0 +1,3 @@
+P:\lab4 kyrs\pozdniakov-test\x64\Debug\gtest.pdb
+P:\lab4 kyrs\pozdniakov-test\x64\Debug\gtest_main.pdb
+P:\lab4 kyrs\pozdniakov-test\pozdniakov-test\x64\Debug\pozdniak.C0C8CD71.Up2Date
