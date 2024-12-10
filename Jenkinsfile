@@ -26,7 +26,7 @@ pipeline {
             steps {
                 script {
                     try {
-                        bat "P:\\lab4 kyrs\\pozdniakov-test\\x64\\Debug\\pozdniakov-test.exe"'
+                        bat '"P:\\lab4 kyrs\\pozdniakov-test\\x64\\Debug\\pozdniakov-test.exe"'
                     } catch (Exception e) {
                         echo "Test error: ${e.message}"
                         currentBuild.result = 'FAILURE'
