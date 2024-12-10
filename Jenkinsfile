@@ -13,7 +13,7 @@ pipeline {
                 script {
                     try {
                         bat '"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\MSBuild.exe" pozdniakov-test.sln /p:Configuration=Debug /p:Platform=x64 /m'
-                    } catcht (Exception e) {
+                    } catch (Exception e) {
                         echo "Build error: ${e.message}"
                         currentBuild.result = 'FAILURE'
                         error("Pipeline stopped due to build failure.")
